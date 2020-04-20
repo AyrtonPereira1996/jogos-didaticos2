@@ -1,0 +1,118 @@
+@charset "utf-8";
+* {
+    /*universal configuration*/
+    font-family: karla;
+}
+
+p,
+label,
+.legenda {
+    font-size: 1.25rem;
+}
+
+@font-face {
+    font-family: cagliostro;
+    src: url(../_fonts/cagliostro-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: karla;
+    src: url(../_fonts/karla-regular-webfont.woff);
+}
+
+span.special-word,
+.special-word2 {
+    /*configuration of some special words*/
+    font-weight: bold;
+}
+
+span.special-word {
+    /*configuration of some words that are important to read because means something to the matter of the didactic game*/
+    color: crimson;
+}
+
+span.special-word2 {
+    /*configuration of some words that are important to read because means something to the matter of the didactic game*/
+    color: #008b8b;
+}
+
+span.special-word3 {
+    /*configuration of some words that are important to read because means something to the matter of the didactic game*/
+    color: rgb(0, 139, 93);
+    font-weight: bold;
+}
+
+span.special-word4 {
+    /*configuration of some words that are important to read because means something to the matter of the didactic game*/
+    color: rgb(255, 255, 0);
+}
+
+div#content-a {
+    /*first content from left-up to right-up from main_page.php document*/
+    background-color: rgb(196, 173, 44);
+    box-shadow: -2.5px 2px 15px rgba(128, 131, 136, 0.829);
+    border-bottom-right-radius: 2.5px;
+    border-bottom-left-radius: 2.5px;
+}
+
+div#content-b {
+    /*second content from left-up to right-up from main_page.php document*/
+    box-shadow: -2.5px 2px 15px rgba(128, 131, 136, 0.829);
+    border-bottom-right-radius: 2.5px;
+    border-bottom-left-radius: 2.5px;
+}
+
+div#content-c {
+    /*second content from left-bottom to right-bottom from main_page.php document*/
+    background-color: chocolate;
+    box-shadow: -2.5px 2px 15px rgba(128, 131, 136, 0.829);
+    border-bottom-right-radius: 2.5px;
+    border-bottom-left-radius: 2.5px;
+}
+
+div#content-d {
+    /*first content from left-bottom to right-bottom from main_page.php document*/
+    background-color: rgb(189, 218, 23);
+    box-shadow: -2.5px 2px 15px rgba(128, 131, 136, 0.829);
+    border-bottom-right-radius: 2.5px;
+    border-bottom-left-radius: 2.5px;
+}
+
+div#content-a:hover,
+div#content-b:hover,
+div#content-c:hover,
+div#content-d:hover {
+    /*hover configuration at contents from main_page.php document*/
+    box-shadow: -5px 5px 20px rgba(92, 152, 249);
+    transition: 0.5s;
+}
+
+div#content-a a,
+div#content-b a,
+div#content-c a,
+div#content-d a {
+    /*anchor configuration at contents from main_page.php document*/
+    text-decoration: none;
+}
+
+body.body-game {
+    background-image: url(../_imgs/background-game.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}
+
+h1.game-title {
+    font-family: cagliostro;
+    color: beige;
+}
+
+input[type="number"] {
+    border-radius: 2.5px;
+    border: none;
+    box-shadow: 2px 1px 1px rgba(188, 188, 188, 1);
+    text-align: center;
+    color: darkcyan;
+    height: 40px;
+    font-size: 1.25rem;
+}
